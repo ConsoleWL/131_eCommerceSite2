@@ -25,6 +25,39 @@ a{
     width: 100%;
     margin: 0 auto;
 }
+
+.head-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+.head-icon img{
+    /* width: 4rem; */
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    position:relative;
+}
+
+#search-iconid{
+    width: 2rem;
+    position: absolute;
+    top: 3.5px;
+    right: 3px;
+}
+
 .footer{
     background-color:#BF7631;
 }
