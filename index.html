@@ -233,23 +233,16 @@
         <section>
             <div>
                 <h2>CONTACT US</h2>
-                <hr class="large short">
-                
-            </div>
-
-            <div>
-                <form action="">
-                    <label for="email">EMAIL</label>
-                    <br>
-                    <input type="text" placeholder="Your email...">
-                    <br>
-
-                    <label for="message">MESSAGE</label>
-                    <br>
-                    <input type="text" placeholder="Your message...">
-                    <br>
-
-                    <button type="button">SEND</button>
+                <form>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="message">MESSAGE</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button>SEND</button>
                 </form>
             </div>
         </section>
