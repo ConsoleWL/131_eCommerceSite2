@@ -160,7 +160,41 @@ a{
     border: none;
 }
 
+/* Contact */
+.contact-form {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
 
+.form > label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.form > input {
+    width: 100%;
+    height: 4rem;
+    border: 1px solid #707070;
+    padding: 0 10px;
+    font-size: 2rem;
+}
+
+.contact-form > button {
+    display: block;
+    background-color: #BF7631;
+    color: white;
+    border: none;
+    width: 12rem;
+    padding: 8px;
+    font-weight: normal;
+    margin-left: auto;
+  }
+/* Footer */
 .footer{
     background-color:#BF7631;
 }
