@@ -39,7 +39,7 @@ a{
 }
 
 .head-icon img{
-    /* width: 4rem; */
+   
 }
 
 .search-div{
@@ -58,6 +58,42 @@ a{
     right: 3px;
 }
 
+
+/* about  */
+.about-text{
+    
+}
+
+.about-div{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+
+.about-div2{
+    width: 60%;
+}
+
+.about-div3{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+    margin-top: 5rem;
+}
+
+.about-div-pic1{
+    width: 30rem;
+}
+
+.about-pic2 {
+    width: 35%;
+    margin-top: 3rem;
+}
+
+#aboutpic2 {
+    width: 100%;
+    
+}
 .footer{
     background-color:#BF7631;
 }
