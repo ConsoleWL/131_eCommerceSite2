@@ -1,7 +1,62 @@
-footer{
-    background-color: orange;
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
 }
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #FFFFFF;
+}
+
+header{
+    width: 100%;
+}
+
+.navbar{
+   
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+
+}
+
+div ul li{
+   display: inline;
+   padding: 0 15px;
+}
+
+.cara{
+    display: flex;
+}
+.cara h3{
+    display: flex;
+    align-items: center;
+}
+.jar-icon{
+   height: 45px;
+}
+
+.large{
+    margin: 7px;
+    padding: 2px;
+    background-color: #000000;
+    width:auto ;
+
+    
+}
+
+
 
 .page-color{
     background-color: #BF7631;
+}
+
+.search-container {
+    display: flex;
+    margin:5px;
 }
