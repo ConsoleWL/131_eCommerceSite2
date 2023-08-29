@@ -197,4 +197,57 @@ a{
 /* Footer */
 .footer{
     background-color:#BF7631;
+    margin-top: 5rem;
+    color:#000000;
+    padding: 10px 0;
+    position: relative;
 }
+.footer-div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.foot-icons{
+    display: flex;
+    align-items:center;
+}
+
+.foot-icons > a img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.foot-jar{
+    display: flex;
+    align-items: center;
+}
+
+.foot-jar > span{
+    font-size: 2.2.rem;
+}
+
+.foot-jar > img {
+    width: 5rem;
+}
+
+.footer-div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.right{
+    position: absolute;
+    bottom: 1rem;
+    right: 20rem;
+}
+
